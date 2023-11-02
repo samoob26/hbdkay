@@ -1,0 +1,120 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color:#232946;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: #eebbc3;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color:#232946;
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+button {
+  margin-top: 3rem;
+  background-color: #3498db; 
+  color: #fff; 
+  border: none; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  text-decoration: none; 
+  font-weight: bold; 
+}
+
+button:hover {
+  background-color: #2670a3; 
+}
+
+button a {
+  text-decoration: none; 
+  color: #fff; 
+}
+
+.cake {
+  background-image: url(''); 
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  margin: 20px auto;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+.styled-div {
+  background-color: #232946;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid violet;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.styled-div video {
+  max-width: 100%; /* Ensure the image doesn't overflow the div */
+  max-height: 100%; /* Ensure the image doesn't overflow the div */
+  border-radius: 8px; /* Apply a border radius to the image */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .cake {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+.styled-div {
+  background-color: #232946;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid violet;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.styled-div video {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
